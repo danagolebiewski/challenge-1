@@ -1,0 +1,13 @@
+01 HTML, CSS, and Git: Code Refactor Homework 
+By Dana Golebiewski
+
+Description 
+Made HTML code and CSS more accessible and consolidated code to be less redundant 
+
+Built With 
+HTML and CSS 
+
+Link to final version 
+
+
+Photos 
