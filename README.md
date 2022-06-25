@@ -1,15 +1,16 @@
-# challenge-1
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+# 01 HTML, CSS, and Git: Code Refactor Homework 
+By Dana Golebiewski
 
+## Description 
+Made HTML code and CSS more accessible and consolidated code to be less redundant 
 
+## Built With 
+HTML and CSS 
 
+## Link to final version 
+
+Site Link 
+[https://danagolebiewski.github.io/challenge-1/]
+
+![Image] 
+(_Users_danagolebiewski_01-HTML-Git-CSS_02-Challenge_Develop_index.html.png)
