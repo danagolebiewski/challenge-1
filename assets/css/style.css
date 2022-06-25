@@ -7,6 +7,16 @@
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 /* I deleted the id because there was no need for it */
 header {
     padding: 20px;
@@ -25,6 +35,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
 /* changed these to nav for better accessibility */
 header nav {
     padding-top: 15px;
@@ -37,19 +48,11 @@ header nav {
 header nav ul {
     list-style-type: none;
 }
+
 /* changed this div to a nav for better accessibility */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -88,55 +91,8 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Content block is the main blocks */
+.content-block {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -145,49 +101,30 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+.content-block img {
+    max-height: 200px;
+}
+
+.content-block h2 {
     margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    font-size: 36px;
+}
+
+/* These are the blocks on the aside */
+.secondary-content-block {
+    margin-bottom: 32px;
     color: #ffffff;
 }
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.secondary-content-block h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.secondary-content-block img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 footer {
@@ -197,7 +134,6 @@ footer {
     text-align: center;
 }
 
-/* Not sure if you wanted this to be h4 or not? */
 footer h4 {
     font-size: 20px;
 }
