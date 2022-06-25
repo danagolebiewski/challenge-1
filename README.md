@@ -9,8 +9,6 @@ HTML and CSS
 
 ## Link to final version 
 
-[Site Link]
-(https://danagolebiewski.github.io/challenge-1/)
+[Site Link](https://danagolebiewski.github.io/challenge-1/)
 
-![Website Preview] 
-(assets/images/website-preview.png)
+![Website Preview](assets/images/website-preview.png)
